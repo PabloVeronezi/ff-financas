@@ -1,2 +1,6 @@
-# ff-financas
-Personal finance control app to track income and expenses
+# FF Finanças
+
+Personal finance control app.
+
+## Status
+In development
