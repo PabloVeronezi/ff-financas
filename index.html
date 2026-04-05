@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="/assets/favicon-96x96.png" sizes="96x96" type="image/x-icon">
+    <title>FF - Finanças Fácil</title>
+</head>
+<body>
+    <header>
+        <h1>
+            FF - Finanças Fácil
+        </h1>
+        <p>
+            O jeito mais fácil de organizar sua vida financeira
+        </p>
+    </header>
+    <main>
+        <section>
+            <h3>
+                Comece já!
+            </h3>
+            <form action="">
+                <input type="number" name="amount" placeholder="Digite o valor" required>
+                <select name="category" id="category" required>
+                    <option value="" disabled selected>Selecione</option>
+                    <option value="salario">Salário</option>
+                    <option value="investimento">Investimento</option>
+                    <option value="alimentacao">Alimentação</option>
+                    <option value="abastecimento">Abastecimento</option>
+                    <option value="transporte">Transporte</option>
+                    <option value="lazer">Lazer</option>
+                    <option value="outros">Outros</option>
+                </select>
+                <select name="type" id="type" required>
+                    <option value="" disabled selected>Tipo</option>
+                    <option value="income">Entrada</option>
+                    <option value="expense">Saída</option>
+                </select>
+                <button type="submit">Adicionar</button>
+            </form>
+        </section>
+        <section>
+            <h3>Resumo</h3>
+            <p>Entradas: R$ 0,00</p>
+            <p>Saídas: R$ 0,00</p>
+            <p>Saldo: R$ 0,00</p>
+        </section>
+    </main>
+    <footer>
+        <span>&copy; Pablo Veronezi - Todos os direitos reservados</span>
+    </footer>
+</body>
+</html>
